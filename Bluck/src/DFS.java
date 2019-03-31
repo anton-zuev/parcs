@@ -8,7 +8,7 @@ public class DFS implements AM {
         Node n = (Node) info.parent.readObject();
         System.out.println("Start, l = " + (n.xl) + "/" + (n.yl) + " , r = " + (n.xr) + "/" + (n.yr) +" ");
         if (n.yl + n.yr > n.MAX_DEPTH) {
-            System.out.println("Bad thread,return " + n.getId() + "] Build started.");
+            System.out.println("Breakpoint " + n.getId() + ".");
             long res = 0;
             info.parent.write(res);
             return;
