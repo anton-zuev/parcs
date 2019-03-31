@@ -19,6 +19,7 @@ public class Node implements Serializable {
 
 
     public Node(int _id, int _xl, int _yl, int _xr, int _yr) {
+        time = 0;
         id = _id;
         xl = _xl;
         yl = _yl;
