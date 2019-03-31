@@ -6,15 +6,16 @@ import parcs.*;
 public class DFS implements AM {
     public void run(AMInfo info) {
         Node n = (Node) info.parent.readObject();
-      //  System.out.println("[" + n.getId() + "] Build started.");
+        //  System.out.println("[" + n.getId() + "] Build started.");
 
         List<point> points = new ArrayList<>();
         List<channel> chans = new ArrayList<>();
 
         if (n.yl + n.yr > n.MAX_DEPTH) {
+            info.parent.write(0);
             return;
         }
-        System.out.println("Generated " + (n.xl+n.xr) + "/" + (n.yl+n.yr) + " ");
+        System.out.println("Generated " + (n.xl + n.xr) + "/" + (n.yl + n.yr) + " ");
         Node leftsearch = new Node(2 * n.getId(), n.xl, n.yl, n.xl + n.xr, n.yl + n.yr);
         Node rightsearch = new Node(2 * n.getId() + 1, n.xl + n.xr, n.yl + n.yr, n.xr, n.yr);
 
@@ -41,7 +42,7 @@ public class DFS implements AM {
             e.printStackTrace();
             return;
         }
-        System.out.println("kkkfkdfds" + n.getId() + "] Finished.");
+        System.out.println("[" + n.getId() + "] Finished.");
         info.parent.write(res);
     }
 }
