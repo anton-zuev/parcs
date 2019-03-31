@@ -41,7 +41,7 @@ public class DFS implements AM {
             e.printStackTrace();
             return;
         }
-     //   System.out.println("[" + n.getId() + "] Finished.");
+        System.out.println("kkkfkdfds" + n.getId() + "] Finished.");
         info.parent.write(res);
     }
 }
