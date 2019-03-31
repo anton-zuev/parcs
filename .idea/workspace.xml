@@ -2,8 +2,328 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4289c1c8-c810-47f3-a337-89ed9a35b74c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bluck/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bluck/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bluck/src/Bluck.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bluck/src/Bluck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/.idea/parcs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Bluck/.idea/Bluck.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Bluck/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Bluck/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Bluck/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Bluck/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Bluck/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Bluck/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Bluck/out/Bluck.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Bluck/out/DFS.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Bluck/out/gen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Bluck/out/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Bluck/out/parcs.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Bluck/out/server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Bluck/src/Bluck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Bluck/src/DFS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Bluck/src/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Daemon/Daemon.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Daemon/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Daemon/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Fibon/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Parcs/Fibon/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Fibon/out/Fibon.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Fibon/out/Fibon.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Fibon/out/Fibon.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Fibon/out/parcs.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Fibon/out/server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Fibon/src/Fib.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Fibon/src/Fibon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/HostsServer/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/HostsServer/TCPHostsServer.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/HostsServer/UDPHostsServer.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/HostsServer/hosts.list" beforeDir="false" afterPath="$PROJECT_DIR$/Parcs/HostsServer/hosts.list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/Daemon$AMExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/Daemon$ServSockThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/Daemon$SockThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/Daemon.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/Daemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/Daemon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/Daemon.jbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/Daemon.jpx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/Daemon.jpx.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/Daemon.oif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/Linpack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/Linpack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/LinpackLauncher$LL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/LinpackLauncher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/StreamClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/StreamClassLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/UDPServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/UDPServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/Untitled1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/build.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/parcs.library" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Daemon/run.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Fibon/Fib.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Fibon/Fibon.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Fibon/Fibon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Fibon/Fibon.jpx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Fibon/Fibon.jpx.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Fibon/Fibon.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Fibon/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Fibon/package cache/.svn/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Fibon/package cache/.svn/empty-file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Fibon/package cache/.svn/entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Fibon/package cache/.svn/format" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Fibon/package cache/.svn/prop-base/unnamed package.dep2.svn-base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Fibon/package cache/.svn/props/unnamed package.dep2.svn-work" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Fibon/package cache/.svn/text-base/unnamed package.dep2.svn-base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Fibon/package cache/unnamed package.dep2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Fibon/server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/ExampleFileFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/ExampleFileFilter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/ExampleFileFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/GUIManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/GUIManager$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/GUIManager$AddButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/GUIManager$AppCloser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/GUIManager$CLoadButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/GUIManager$ExecButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/GUIManager$ListSelectListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/GUIManager$LoadButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/GUIManager$RemoveButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/GUIManager$SaveButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/GUIManager$TestButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/GUIManager$UsePerfCBoxListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/GUIManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/GUIManager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/GUIManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/GUIManager.jpx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/GUIManager.jpx.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/MyFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/MyFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/SetListModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/SetListModel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/SetListModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/build.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/jbcl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/package cache/.svn/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/package cache/.svn/empty-file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/package cache/.svn/entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/package cache/.svn/format" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/package cache/.svn/prop-base/unnamed package.dep2.svn-base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/package cache/.svn/props/unnamed package.dep2.svn-work" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/package cache/.svn/text-base/unnamed package.dep2.svn-base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/package cache/unnamed package.dep2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/run.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/GUIManager/settings.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/Benchmark.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/Benchmark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/HostsServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/HostsServer$TaskInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/HostsServer$Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/HostsServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/HostsServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/HostsServer.jpx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/HostsServer.jpx.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/HostsServer.oif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/PointInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/Reader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/TCPHostsServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/TCPHostsServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/TCPHostsServer.jbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/UDPHostsServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/UDPHostsServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/UDPReceiver$Query.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/UDPReceiver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/UDPReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/UpdateHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/UpdateHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/XHostInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/XHostInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/build.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/hosts.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/hosts.list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/HostsServer/run.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/1.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/2.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/GenerateMatr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/GenerateMatr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/Matr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/Matr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/Matrix.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/Matrixes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/Matrixes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/Matrixes/Matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/Matrixes/Matrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/Matrixes/MultThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/Matrixes/MultThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/Matrixs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/Matrixs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/build.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/generateMatr.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/jar.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/run.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes.bak/server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes/GenerateMatr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes/GenerateMatr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes/Matr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes/Matr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes/Matrixes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes/Matrixes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes/Matrixes/Matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes/Matrixes/Matrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes/Matrixes/MultThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes/Matrixes/MultThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes/Matrixs.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes/Matrixs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes/Matrixs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes/build.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes/generateMatr.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes/jar.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes/run.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Matrixes/server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/ParcsNet.bpgr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/ParcsNet.bpgr.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/ParcsNet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/ParcsNet.jpx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/ParcsNet.jpx.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/ParcsNet.library" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Generated Source/.svn/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Generated Source/.svn/empty-file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Generated Source/.svn/entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Generated Source/.svn/format" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Generated Source/.svn/text-base/ParcsLauncherObj_Stub.java.svn-base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Generated Source/HostsServer/.svn/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Generated Source/HostsServer/.svn/empty-file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Generated Source/HostsServer/.svn/entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Generated Source/HostsServer/.svn/format" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Generated Source/ParcsLauncherObj_Stub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Generated Source/parcs/.svn/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Generated Source/parcs/.svn/empty-file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Generated Source/parcs/.svn/entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Generated Source/parcs/.svn/format" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Matrix.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Matrix1.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Matrix2.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Matrixes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Matrixes.jar2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/ParcsClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/ParcsLauncher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/ParcsLauncherInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/ParcsLauncherObj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/RMI.jpx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/RMI.jpx.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/RMI.oif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Series.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/Series.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/client.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/hosts.list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/package cache/.svn/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/package cache/.svn/empty-file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/package cache/.svn/entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/package cache/.svn/format" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/package cache/.svn/prop-base/unnamed package.dep2.svn-base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/package cache/.svn/props/unnamed package.dep2.svn-work" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/package cache/.svn/text-base/unnamed package.dep2.svn-base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/package cache/unnamed package.dep2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/runClient.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/RMI/runServer.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/GenerateBD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/META-INF/.svn/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/META-INF/.svn/empty-file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/META-INF/.svn/entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/META-INF/.svn/format" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/META-INF/.svn/text-base/MANIFEST.MF.svn-base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/Matrixes/Matrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/Matrixes/MultThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/Ser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/Series.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/Series.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/Series.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/SeriesS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/createser.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/e.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/generateBD.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/jar.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/package cache/Matrixes.dep2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/package cache/unnamed package.dep2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/S2/server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/Arctg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/Arctg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/Cos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/Cos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/Exp.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/Exp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/Exp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/Log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/Log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/Series.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/SeriesS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/SeriesS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/Sin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/Sin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/build.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/file.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/file.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/jar.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/run.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/Series2/server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs.library" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/AM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/AM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/AMInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/AMInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/Const.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/Const.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/EventTrace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/EventTrace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/Exec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/Executor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/Executor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/HostInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/HostInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/HostInfo.jbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/IRecovery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/IRecovery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/JarClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/JarClassLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/PerformFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/PerformFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/PointData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/Recover$AMRecover.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/Recover.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/Recover.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/RecoveryFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/RecoveryFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/SafeRun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/SafeRun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/ServerQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/ServerQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/TieRecoveries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/TieRecoveries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/UDPQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/UDPQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/build.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/channel$ExtObjectInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/channel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/channel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/parcs.jpx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/parcs.jpx.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/parcs.oif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/Parcs/parcs/task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcs/parcs.jar" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +332,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bluck/src/Bluck.java">
+        <entry file="file://$PROJECT_DIR$/Bluck/src/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -26,10 +346,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bluck/src/DFS.java">
+        <entry file="file://$PROJECT_DIR$/Bluck/src/Bluck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="102">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,57 +365,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Bluck/src/Bluck.java" />
         <option value="$PROJECT_DIR$/Bluck/src/Node.java" />
         <option value="$PROJECT_DIR$/Bluck/src/DFS.java" />
+        <option value="$PROJECT_DIR$/Bluck/src/Bluck.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
+    <option name="x" value="720" />
+    <option name="y" value="25" />
     <option name="width" value="974" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="ProjectPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="parcs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parcs" type="462c0819:PsiDirectoryNode" />
+              <item name="parcs" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="parcs" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
-              <item name="parcs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parcs" type="462c0819:PsiDirectoryNode" />
-              <item name="Bluck" type="462c0819:PsiDirectoryNode" />
+              <item name="parcs" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="parcs" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="Bluck" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="parcs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parcs" type="462c0819:PsiDirectoryNode" />
-              <item name="Bluck" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="parcs" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="parcs" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="Bluck" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="parcs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parcs" type="462c0819:PsiDirectoryNode" />
-              <item name="Bluck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="parcs" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="parcs" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="Daemon" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554023298119" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554024408669" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -124,10 +444,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="720" y="25" width="974" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18708971" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19146608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -141,7 +461,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.42997813" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4295082" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -158,7 +478,7 @@
     <entry file="file://$PROJECT_DIR$/Bluck/out/input">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/parcs/Fibon/Fib.java">
+    <entry file="file://$PROJECT_DIR$/Parcs/Fibon/Fib.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
@@ -171,17 +491,27 @@
     <entry file="file://$PROJECT_DIR$/Daemon/Dockerfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/parcs/HostsServer/HostsServer.class">
+    <entry file="file://$PROJECT_DIR$/Parcs/HostsServer/HostsServer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="540" selection-start-line="540" selection-end-line="540" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Bluck/src/DFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Bluck/src/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -190,18 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bluck/src/Bluck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bluck/src/DFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="102">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

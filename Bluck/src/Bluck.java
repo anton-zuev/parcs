@@ -9,7 +9,7 @@ public class Bluck {
     public static void main(String[] args) throws Exception {
         task curtask = new task();
         curtask.addJarFile("DFS.jar");
-        Node n = Node(0, 0, 1, 1, 1);
+        Node n = new Node(0, 0, 1, 1, 1);
 
         AMInfo info = new AMInfo(curtask, null);
         point p = info.createPoint();
