@@ -12,6 +12,7 @@ public class DFS implements AM {
         List<channel> chans = new ArrayList<>();
 
         if (n.yl + n.yr > n.MAX_DEPTH) {
+            System.out.println("Bad thread,return " + n.getId() + "] Build started.");
             info.parent.write(0);
             return;
         }
