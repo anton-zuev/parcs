@@ -6,13 +6,10 @@ import parcs.*;
 public class DFS implements AM {
     public void run(AMInfo info) {
         Node n = (Node) info.parent.readObject();
-        System.out.println("[" + n.getId() + "] Build started.");
-        System.out.println("[" + n.getId() + "] Build started.");
-
+      //  System.out.println("[" + n.getId() + "] Build started.");
 
         List<point> points = new ArrayList<>();
         List<channel> chans = new ArrayList<>();
-
 
         if (n.yl + n.yr > n.MAX_DEPTH) {
             return;
@@ -44,7 +41,7 @@ public class DFS implements AM {
             e.printStackTrace();
             return;
         }
-        System.out.println("[" + n.getId() + "] Finished.");
+     //   System.out.println("[" + n.getId() + "] Finished.");
         info.parent.write(res);
     }
 }
