@@ -15,7 +15,6 @@ public class Node implements Serializable {
     public Node(int id) {
         this.id = id;
         this.time = 0;
-        this.deps = new ArrayList<>();
     }
 
 
@@ -35,15 +34,8 @@ public class Node implements Serializable {
         return time;
     }
 
-    public List<Node> getDeps() {
-        return deps;
-    }
-
     public void setTime(int time) {
         this.time = time;
     }
 
-    public void addDep(Node dep) {
-        deps.add(dep);
-    }
 }
