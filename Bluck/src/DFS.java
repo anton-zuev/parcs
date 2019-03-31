@@ -18,8 +18,8 @@ public class DFS implements AM {
             return;
         }
         System.out.println("Generated " + (n.xl+n.xr) + "/" + (n.yl+n.yr) + " ");
-        Node leftsearch = new Node(2 * n.getId(), n.xl, n.yl, n.xl + n.xr, x.yl + n.yr);
-        Node rightsearch = new Node(2 * n.getId() + 1, n.xl + n.xr, x.yl + n.yr, n.xr, n.yr);
+        Node leftsearch = new Node(2 * n.getId(), n.xl, n.yl, n.xl + n.xr, n.yl + n.yr);
+        Node rightsearch = new Node(2 * n.getId() + 1, n.xl + n.xr, n.yl + n.yr, n.xr, n.yr);
 
         point p1 = info.createPoint();
         channel c1 = p.createChannel();
