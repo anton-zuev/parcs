@@ -6,7 +6,7 @@ import parcs.*;
 public class DFS implements AM {
     public void run(AMInfo info) {
         Node n = (Node) info.parent.readObject();
-        System.out.println("Start, l = " + (n.xl) + "/" + (n.yl) + " , r = " + (n.xr) + "/" + (n.yr) " ");
+        System.out.println("Start, l = " + (n.xl) + "/" + (n.yl) + " , r = " + (n.xr) + "/" + (n.yr) +" ");
         if (n.yl + n.yr > n.MAX_DEPTH) {
             System.out.println("Bad thread,return " + n.getId() + "] Build started.");
             info.parent.write(new Long(0));
