@@ -13,7 +13,7 @@ public class DFS implements AM {
 
         if (n.yl + n.yr > n.MAX_DEPTH) {
             System.out.println("Bad thread,return " + n.getId() + "] Build started.");
-            info.parent.write(0);
+            info.parent.write(new Long(0));
             return;
         }
         System.out.println("Generated " + (n.xl + n.xr) + "/" + (n.yl + n.yr) + " ");
