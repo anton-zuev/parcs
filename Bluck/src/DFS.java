@@ -22,12 +22,12 @@ public class DFS implements AM {
         Node rightsearch = new Node(2 * n.getId() + 1, n.xl + n.xr, n.yl + n.yr, n.xr, n.yr);
 
         point p1 = info.createPoint();
-        channel c1 = p.createChannel();
+        channel c1 = p1.createChannel();
         p1.execute("DFS");
         c1.write(leftsearch);
 
         point p2 = info.createPoint();
-        channel c2 = p.createChannel();
+        channel c2 = p2.createChannel();
         p2.execute("DFS");
         c2.write(rightsearch);
 
