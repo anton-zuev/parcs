@@ -1,26 +1,42 @@
 import java.util.List;
 import java.util.ArrayList;
+
 import parcs.*;
 
 public class DFS implements AM {
     public void run(AMInfo info) {
-        Node n = (Node)info.parent.readObject();
+        Node n = (Node) info.parent.readObject();
         System.out.println("[" + n.getId() + "] Build started.");
+
 
         List<point> points = new ArrayList<>();
         List<channel> chans = new ArrayList<>();
-        for (Node d: n.getDeps()) {
-            point p = info.createPoint();
-            channel c = p.createChannel();
-            p.execute("DFS");
-            c.write(d);
-            points.add(p);
-            chans.add(c);
+
+
+        if (n.yl + n.yr > MAX_DEPTH) {
+            return;
         }
+        System.out.println("Generated " + (n.xl+n.xr) + "/" + (n.yl+n.yr) + " ");
+        Node leftsearch = new Node(2 * n.getId(), n.xl, n.yl, n.xl + n.xr, x.yl + n.yr)
+        Node rightsearch = new Node(2 * n.getId() + 1, n.xl + n.xr, x.yl + n.yr, n.xr, n.yr);
+
+        point p1 = info.createPoint();
+        channel c1 = p.createChannel();
+        p1.execute("DFS");
+        c1.write(leftsearch);
+
+        point p2 = info.createPoint();
+        channel c2 = p.createChannel();
+        p2.execute("DFS");
+        c2.write(rightsearch);
+
+
+        long res = 1;
         long sum = n.getTime();
-        for (channel c: chans) {
-            sum += c.readLong();
-        }
+
+
+        res += c1.readLong() + c2.readLong();
+
         try {
             Thread.sleep(n.getTime());
         } catch (InterruptedException e) {
@@ -28,6 +44,6 @@ public class DFS implements AM {
             return;
         }
         System.out.println("[" + n.getId() + "] Build finished.");
-        info.parent.write(sum);
+        info.parent.write(res);
     }
 }
