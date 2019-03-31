@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4289c1c8-c810-47f3-a337-89ed9a35b74c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bluck/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bluck/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bluck/src/Bluck.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bluck/src/Bluck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Parcs/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Parcs/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Parcs/.idea/parcs.iml" beforeDir="false" />
@@ -332,11 +331,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bluck/src/Node.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="277">
-              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -344,11 +343,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bluck/src/Bluck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="280">
+              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -376,9 +375,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Bluck/src/Bluck.java" />
         <option value="$PROJECT_DIR$/Bluck/src/DFS.java" />
         <option value="$PROJECT_DIR$/Bluck/src/Node.java" />
+        <option value="$PROJECT_DIR$/Bluck/src/Bluck.java" />
       </list>
     </option>
   </component>
@@ -509,16 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bluck/src/Bluck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bluck/src/DFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -532,7 +521,17 @@
     <entry file="file://$PROJECT_DIR$/Bluck/src/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bluck/src/Bluck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
