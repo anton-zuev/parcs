@@ -7,13 +7,14 @@ public class DFS implements AM {
     public void run(AMInfo info) {
         Node n = (Node) info.parent.readObject();
         System.out.println("[" + n.getId() + "] Build started.");
+        System.out.println("[" + n.getId() + "] Build started.");
 
 
         List<point> points = new ArrayList<>();
         List<channel> chans = new ArrayList<>();
 
 
-        if (n.yl + n.yr > MAX_DEPTH) {
+        if (n.yl + n.yr > n.MAX_DEPTH) {
             return;
         }
         System.out.println("Generated " + (n.xl+n.xr) + "/" + (n.yl+n.yr) + " ");
@@ -43,7 +44,7 @@ public class DFS implements AM {
             e.printStackTrace();
             return;
         }
-        System.out.println("[" + n.getId() + "] Build finished.");
+        System.out.println("[" + n.getId() + "] Finished.");
         info.parent.write(res);
     }
 }

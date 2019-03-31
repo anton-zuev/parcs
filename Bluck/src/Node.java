@@ -6,7 +6,7 @@ public class Node implements Serializable {
 
 
 
-    static int MAX_DEPTH = 50;
+    static int MAX_DEPTH = 10;
 
     private int id;
     private int time;
